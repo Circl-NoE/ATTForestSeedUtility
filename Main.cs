@@ -1,12 +1,7 @@
 ﻿using Alta.Forests;
-using Alta.Static;
 using HarmonyLib;
 using MelonLoader;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 [assembly : MelonInfo(typeof(ForestSeedUtil.Main), "Forest Seed Utilities", "1.0.0", "Circl")]
 
