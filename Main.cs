@@ -13,7 +13,6 @@ namespace ForestSeedUtil
         public static MelonPreferences_Entry<int> Seed { get; private set; }
         public override void OnInitializeMelon()
         {
-            MelonLogger.Msg("Doing stuff");
             SeedCat = MelonPreferences.CreateCategory("ForestSeedUtil");
             Seed = (MelonPreferences_Entry<int>)SeedCat.CreateEntry<int>("Seed", -1, "Seed", false);
             MelonPreferences.Save();
